@@ -1,3 +1,22 @@
+Description:
+This project is a digital timer web application built using React.js. It features a user interface that displays the elapsed time in minutes and seconds, along with buttons to start/pause the timer, reset it, and set the timer limit.
+
+The main components of this project are:
+
+DigitalTimer Component: This component manages the state of the timer, including whether it's running or paused, the elapsed time, and the timer limit. It provides functionality to start/pause the timer, reset it, and adjust the timer limit.
+
+Timer Display: The elapsed time is displayed in a visually appealing format, with the minutes and seconds separated and styled accordingly.
+
+Controls: Users can control the timer using buttons to start/pause, reset, and set the timer limit. The buttons are styled and responsive.
+
+Timer Limit Controller: Users can adjust the timer limit (in minutes) using buttons to increase or decrease the value. The timer limit controls are visually presented and disabled when the timer is running.
+
+The project utilizes CSS for styling, with responsive design considerations for different screen sizes. The timer logic and state management are handled within the DigitalTimer component, demonstrating the use of class components in React. Overall, this project provides a user-friendly interface for managing and monitoring time.
+
+Website:
+https://digitaltimerapp.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
